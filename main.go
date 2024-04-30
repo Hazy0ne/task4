@@ -15,7 +15,7 @@ func main() {
 	rider := bufio.NewScanner(os.Stdin)
 
 	for {
-		fmt.Println("Ведите первое число:")
+		fmt.Println("Ведите число:")
 		rider.Scan()
 		read, _ := strconv.Atoi(rider.Text())
 		scan = read
